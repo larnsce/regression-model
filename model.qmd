@@ -1,5 +1,10 @@
 ---
-output: html_document
+title: "Three models for willingness to accept payment"
+subtitle: "(chr, fct, num)"
+execute:
+  message: false
+  warning: false
+format: docx
 editor_options: 
   chunk_output_type: console
 ---
@@ -9,6 +14,9 @@ library(tidyverse)
 library(chibukuplasticscollection)
 ```
 
+## Data preparation
+
+- Prepare wta variable which has a positive linear relationship with income (monthly_earn1)
 
 ```{r}
 
@@ -28,6 +36,7 @@ survey_model <- survey |>
     monthly_earn1 == "More than MWK200,000" ~ 220
   ))
 
+# write csv
 survey_model |>
   write_csv(here::here("data/intermediate/survey_small_wta_model.csv"))
 ```
@@ -40,7 +49,8 @@ survey_model |>
 ```{r}
 survey_model |> 
   count(monthly_earn1) |> 
-  mutate(percent = n / sum(n) * 100) 
+  mutate(percent = n / sum(n) * 100) |> 
+  knitr::kable()
 ```
 
 ```{r}
@@ -89,15 +99,21 @@ survey_model_clean |>
 ```
 
 ```{r}
-
-model_chr_fit <- lm(wta ~ monthly_earn_chr, data = survey_model_clean) 
-summary(model_chr_fit)
-broom::tidy(model_chr_fit)
-broom::glance(model_chr_fit)
-
-lm(monthly_earn_chr ~ wta, data = survey_model_clean) 
-
+model_chr_fit <- lm(wta ~ monthly_earn_chr, data = survey_model_clean)
 ```
+
+**Model summary**
+
+```{r}
+summary(model_chr_fit)
+```
+
+**Model coefficients**
+
+```{r}
+broom::tidy(model_chr_fit)
+```
+
 
 ### Income ordered 
 
@@ -110,10 +126,19 @@ survey_model_clean |>
 ```
 
 ```{r}
-model_fct_fit <- lm(wta ~ monthly_earn_fct, data = survey_model_clean) 
+model_fct_fit <- lm(wta ~ monthly_earn_fct, data = survey_model_clean)
+```
+
+**Model summary**
+
+```{r}
 summary(model_fct_fit)
+```
+
+**Model coefficients**
+
+```{r}
 broom::tidy(model_fct_fit)
-broom::glance(model_fct_fit)
 ```
 
 ### Income as numeric
@@ -126,9 +151,21 @@ survey_model_clean |>
   theme(axis.text.x = element_text(angle = 90))
 ```
 
+
 ```{r}
-model_num_fit <- lm(wta ~ monthly_earn_num, data = survey_model_clean) 
-summary(model_num_fit)
-broom::tidy(model_num_fit)
-broom::glance(model_num_fit)
+model_num_fit <- lm(wta ~ monthly_earn_num, data = survey_model_clean)
 ```
+
+**Model summary**
+
+```{r}
+summary(model_num_fit)
+```
+
+**Model coefficients**
+
+```{r}
+broom::tidy(model_num_fit)
+```
+
+
