@@ -1,0 +1,555 @@
+id,age,gender,monthly_earn1,wta
+1,33,Female,"Between MWK100,000 to MWK124,999",60
+2,55,Female,"More than MWK200,000",220
+3,28,Female,NA,NA
+4,19,Male,"Between MWK75,000 to MWK99,999",40
+5,24,Male,"Between MWK100,000 to MWK124,999",60
+6,60,Female,"Between MWK75,000 to MWK99,999",40
+7,19,Female,"Between MWK50,000 to MWK74,999",20
+8,34,Female,I don't know,NA
+9,23,Male,"Between MWK100,000 to MWK124,999",60
+10,22,Male,"Between MWK50,000 to MWK74,999",20
+11,25,Female,I don't know,NA
+12,22,Female,"Between MWK50,000 to MWK74,999",20
+13,38,Female,"Between MWK125,000 to MWK149,999",90
+14,30,Female,I don't know,NA
+15,32,Female,"Between MWK150,000 to MWK174,999",120
+16,26,Male,"More than MWK200,000",220
+17,24,Female,Prefer not to say,NA
+18,26,Male,"Between MWK150,000 to MWK174,999",120
+19,73,Male,NA,NA
+20,38,Female,NA,NA
+21,26,Female,NA,NA
+22,38,Male,"More than MWK200,000",220
+23,60,Male,NA,NA
+24,43,Female,"Between MWK100,000 to MWK124,999",60
+25,23,Female,"Between MWK50,000 to MWK74,999",20
+26,31,Male,NA,NA
+27,28,Male,"Between MWK100,000 to MWK124,999",60
+28,51,Male,"Between MWK50,000 to MWK74,999",20
+29,46,Male,"Between MWK125,000 to MWK149,999",90
+30,24,Female,"Between MWK25,000 to MWK49,999",10
+31,19,Female,"Between MWK75,000 to MWK99,999",40
+32,23,Female,"Between MWK125,000 to MWK149,999",90
+33,29,Male,"Between MWK100,000 to MWK124,999",60
+34,48,Female,"Between MWK25,000 to MWK49,999",10
+35,44,Female,"Between MWK25,000 to MWK49,999",10
+36,45,Male,"Between MWK75,000 to MWK99,999",40
+37,35,Female,"Between MWK125,000 to MWK149,999",90
+38,44,Female,"Between MWK25,000 to MWK49,999",10
+39,44,Female,Prefer not to say,NA
+40,28,Female,I don't know,NA
+41,28,Female,"Between MWK50,000 to MWK74,999",20
+42,22,Female,NA,NA
+43,47,Female,"Between MWK100,000 to MWK124,999",60
+44,38,Female,NA,NA
+45,42,Male,NA,NA
+46,22,Female,NA,NA
+47,19,Male,NA,NA
+48,21,Female,"Between MWK50,000 to MWK74,999",20
+49,28,Female,"Between MWK125,000 to MWK149,999",90
+50,36,Female,NA,NA
+51,37,Female,NA,NA
+52,43,Male,"Between MWK25,000 to MWK49,999",10
+53,33,Female,NA,NA
+54,36,Female,Prefer not to say,NA
+55,20,Female,NA,NA
+56,19,Female,"Between MWK75,000 to MWK99,999",40
+57,32,Male,"Between MWK100,000 to MWK124,999",60
+58,71,Male,"Between MWK100,000 to MWK124,999",60
+59,51,Male,NA,NA
+60,45,Female,NA,NA
+61,30,Female,"Between MWK125,000 to MWK149,999",90
+62,28,Female,NA,NA
+63,19,Male,"Between MWK50,000 to MWK74,999",20
+64,30,Female,I don't know,NA
+65,22,Female,"Between MWK175,000 to MWK200,000",160
+66,39,Female,"Between MWK50,000 to MWK74,999",20
+67,60,Female,NA,NA
+68,21,Male,I don't know,NA
+69,29,Female,"More than MWK200,000",220
+70,22,Male,"Between MWK150,000 to MWK174,999",120
+71,44,Male,"Between MWK175,000 to MWK200,000",160
+72,83,Male,"More than MWK200,000",220
+73,28,Female,"More than MWK200,000",220
+74,37,Female,"Between MWK100,000 to MWK124,999",60
+75,33,Female,"Between MWK150,000 to MWK174,999",120
+76,45,Male,"Between MWK100,000 to MWK124,999",60
+77,19,Male,"Between MWK25,000 to MWK49,999",10
+78,42,Male,"Between MWK75,000 to MWK99,999",40
+79,32,Male,"Between MWK100,000 to MWK124,999",60
+80,23,Female,Prefer not to say,NA
+81,38,Female,"Between MWK100,000 to MWK124,999",60
+82,16,Female,I don't know,NA
+83,20,Female,"More than MWK200,000",220
+84,49,Female,"More than MWK200,000",220
+85,25,Male,NA,NA
+86,41,Female,"Between MWK100,000 to MWK124,999",60
+87,75,Female,"Between MWK175,000 to MWK200,000",160
+88,53,Female,"Between MWK150,000 to MWK174,999",120
+89,47,Female,NA,NA
+90,38,Female,"More than MWK200,000",220
+91,22,Male,NA,NA
+92,35,Female,"Between MWK75,000 to MWK99,999",40
+93,75,Male,"Between MWK50,000 to MWK74,999",20
+94,41,Female,"Between MWK50,000 to MWK74,999",20
+95,18,Female,NA,NA
+96,19,Female,"Between MWK100,000 to MWK124,999",60
+97,18,Female,"Between MWK50,000 to MWK74,999",20
+98,30,Female,"Between MWK50,000 to MWK74,999",20
+99,33,Female,"Between MWK50,000 to MWK74,999",20
+100,30,Female,Prefer not to say,NA
+101,42,Female,"More than MWK200,000",220
+102,27,Male,NA,NA
+103,23,Female,Prefer not to say,NA
+104,33,Female,I don't know,NA
+105,74,Male,"Between MWK25,000 to MWK49,999",10
+106,57,Male,I don't know,NA
+107,18,Male,NA,NA
+108,25,Female,NA,NA
+109,31,Female,NA,NA
+110,22,Female,NA,NA
+111,62,Female,I don't know,NA
+112,23,Female,"Between MWK150,000 to MWK174,999",120
+113,37,Female,"Between MWK100,000 to MWK124,999",60
+114,21,Male,"Between MWK150,000 to MWK174,999",120
+115,39,Female,"More than MWK200,000",220
+116,33,Male,"More than MWK200,000",220
+117,29,Female,"Between MWK150,000 to MWK174,999",120
+118,59,Female,"More than MWK200,000",220
+119,27,Male,"Between MWK75,000 to MWK99,999",40
+120,31,Female,NA,NA
+121,41,Female,Prefer not to say,NA
+122,26,Female,"Between MWK75,000 to MWK99,999",40
+123,27,Female,"Between MWK125,000 to MWK149,999",90
+124,32,Male,NA,NA
+125,36,Female,Prefer not to say,NA
+126,28,Female,NA,NA
+127,60,Female,"Between MWK175,000 to MWK200,000",160
+128,35,Female,"Between MWK100,000 to MWK124,999",60
+129,17,Male,I don't know,NA
+130,21,Female,Prefer not to say,NA
+131,19,Male,Prefer not to say,NA
+132,27,Male,"Between MWK50,000 to MWK74,999",20
+133,29,Female,NA,NA
+134,33,Female,Prefer not to say,NA
+135,24,Female,Prefer not to say,NA
+136,20,Female,"Between MWK100,000 to MWK124,999",60
+137,21,Female,I don't know,NA
+138,18,Male,I don't know,NA
+139,49,Female,NA,NA
+140,47,Female,Prefer not to say,NA
+141,19,Female,I don't know,NA
+142,34,Male,"Between MWK75,000 to MWK99,999",40
+143,18,Female,NA,NA
+144,38,Female,NA,NA
+145,20,Female,NA,NA
+146,32,Female,NA,NA
+147,55,Female,"Less than MWK25,000",5
+148,36,Female,NA,NA
+149,23,Male,"Between MWK50,000 to MWK74,999",20
+150,43,Male,NA,NA
+151,28,Male,NA,NA
+152,33,Male,Prefer not to say,NA
+153,25,Female,NA,NA
+154,22,Female,NA,NA
+155,28,Female,Prefer not to say,NA
+156,32,Female,"More than MWK200,000",220
+157,72,Female,"Between MWK100,000 to MWK124,999",60
+158,54,Male,"Between MWK150,000 to MWK174,999",120
+159,42,Female,"Between MWK125,000 to MWK149,999",90
+160,52,Male,"Between MWK150,000 to MWK174,999",120
+161,28,Male,"Between MWK50,000 to MWK74,999",20
+162,20,Female,"Between MWK125,000 to MWK149,999",90
+163,21,Female,"Between MWK100,000 to MWK124,999",60
+164,35,Female,"Between MWK100,000 to MWK124,999",60
+165,16,Female,"Between MWK175,000 to MWK200,000",160
+166,38,Male,"Between MWK25,000 to MWK49,999",10
+167,19,Male,I don't know,NA
+168,58,Male,Prefer not to say,NA
+169,31,Female,"Between MWK25,000 to MWK49,999",10
+170,18,Female,NA,NA
+171,30,Female,"Between MWK25,000 to MWK49,999",10
+172,21,Female,"Between MWK25,000 to MWK49,999",10
+173,24,Male,NA,NA
+174,25,Female,NA,NA
+175,36,Male,"Between MWK100,000 to MWK124,999",60
+176,23,Female,"Between MWK150,000 to MWK174,999",120
+177,49,Female,Prefer not to say,NA
+178,36,Female,"Between MWK75,000 to MWK99,999",40
+179,23,Female,I don't know,NA
+180,32,Female,Prefer not to say,NA
+181,39,Female,Prefer not to say,NA
+182,47,Female,NA,NA
+183,22,Female,NA,NA
+184,48,Female,"Between MWK50,000 to MWK74,999",20
+185,24,Female,"Between MWK175,000 to MWK200,000",160
+186,52,Male,"Between MWK50,000 to MWK74,999",20
+187,46,Male,"Between MWK75,000 to MWK99,999",40
+188,31,Male,"More than MWK200,000",220
+189,55,Male,"Between MWK150,000 to MWK174,999",120
+190,18,Female,"Between MWK100,000 to MWK124,999",60
+191,30,Female,"Between MWK50,000 to MWK74,999",20
+192,35,Female,"Between MWK75,000 to MWK99,999",40
+193,23,Female,"Between MWK75,000 to MWK99,999",40
+194,67,Male,NA,NA
+195,19,Female,I don't know,NA
+196,19,Male,"More than MWK200,000",220
+197,29,Female,"Between MWK75,000 to MWK99,999",40
+198,40,Female,"Between MWK100,000 to MWK124,999",60
+199,38,Female,I don't know,NA
+200,40,Female,"Between MWK100,000 to MWK124,999",60
+201,32,Male,Prefer not to say,NA
+202,38,Male,"Between MWK100,000 to MWK124,999",60
+203,60,Female,NA,NA
+204,19,Male,NA,NA
+205,40,Female,"Between MWK25,000 to MWK49,999",10
+206,29,Female,"Between MWK25,000 to MWK49,999",10
+207,48,Male,Prefer not to say,NA
+208,26,Male,NA,NA
+209,26,Male,I don't know,NA
+210,18,Female,I don't know,NA
+211,46,Female,"Between MWK25,000 to MWK49,999",10
+212,40,Female,Prefer not to say,NA
+213,18,Female,I don't know,NA
+214,19,Male,I don't know,NA
+215,26,Female,Prefer not to say,NA
+216,42,Male,"Between MWK75,000 to MWK99,999",40
+217,23,Male,I don't know,NA
+218,33,Female,NA,NA
+219,42,Female,NA,NA
+220,67,Female,NA,NA
+221,56,Male,"Between MWK25,000 to MWK49,999",10
+222,49,Male,"Between MWK150,000 to MWK174,999",120
+223,27,Female,"More than MWK200,000",220
+224,50,Female,"More than MWK200,000",220
+225,20,Female,NA,NA
+226,25,Female,"Between MWK125,000 to MWK149,999",90
+227,34,Female,NA,NA
+228,42,Female,"Between MWK100,000 to MWK124,999",60
+229,30,Male,"Between MWK50,000 to MWK74,999",20
+230,21,Female,Prefer not to say,NA
+231,31,Female,I don't know,NA
+232,36,Female,"Between MWK150,000 to MWK174,999",120
+233,26,Female,Prefer not to say,NA
+234,28,Female,Prefer not to say,NA
+235,33,Female,NA,NA
+236,25,Male,"Between MWK75,000 to MWK99,999",40
+237,48,Female,"Between MWK50,000 to MWK74,999",20
+238,29,Female,NA,NA
+239,29,Female,NA,NA
+240,40,Male,"Between MWK100,000 to MWK124,999",60
+241,18,Male,NA,NA
+242,25,Female,NA,NA
+243,21,Male,NA,NA
+244,21,Female,"Between MWK75,000 to MWK99,999",40
+245,36,Female,"Between MWK75,000 to MWK99,999",40
+246,38,Male,Prefer not to say,NA
+247,42,Female,Prefer not to say,NA
+248,52,Female,NA,NA
+249,30,Female,NA,NA
+250,21,Female,NA,NA
+251,52,Male,"Between MWK150,000 to MWK174,999",120
+252,72,Female,"Between MWK50,000 to MWK74,999",20
+253,18,Male,"More than MWK200,000",220
+254,19,Female,"Between MWK125,000 to MWK149,999",90
+255,23,Male,"Between MWK150,000 to MWK174,999",120
+256,37,Female,"More than MWK200,000",220
+257,60,Male,NA,NA
+258,26,Male,Prefer not to say,NA
+259,32,Female,"Between MWK50,000 to MWK74,999",20
+260,25,Female,I don't know,NA
+261,17,Male,I don't know,NA
+262,19,Male,"Less than MWK25,000",5
+263,19,Male,"Between MWK50,000 to MWK74,999",20
+264,24,Male,I don't know,NA
+265,27,Male,I don't know,NA
+266,47,Male,"Between MWK25,000 to MWK49,999",10
+267,41,Male,"Between MWK75,000 to MWK99,999",40
+268,20,Female,"Between MWK50,000 to MWK74,999",20
+269,23,Female,"Between MWK125,000 to MWK149,999",90
+270,31,Female,NA,NA
+271,22,Female,"Between MWK50,000 to MWK74,999",20
+272,19,Male,"More than MWK200,000",220
+273,59,Female,"More than MWK200,000",220
+274,18,Female,"Between MWK100,000 to MWK124,999",60
+275,47,Female,"More than MWK200,000",220
+276,26,Male,"Between MWK125,000 to MWK149,999",90
+277,26,Female,"Between MWK100,000 to MWK124,999",60
+278,40,Female,"Between MWK150,000 to MWK174,999",120
+279,22,Male,"More than MWK200,000",220
+280,49,Female,"Between MWK175,000 to MWK200,000",160
+281,45,Female,NA,NA
+282,27,Female,I don't know,NA
+283,36,Female,I don't know,NA
+284,20,Female,"Less than MWK25,000",5
+285,38,Female,"Between MWK175,000 to MWK200,000",160
+286,30,Female,Prefer not to say,NA
+287,26,Female,"Between MWK75,000 to MWK99,999",40
+288,30,Female,Prefer not to say,NA
+289,36,Female,NA,NA
+290,39,Female,"Between MWK175,000 to MWK200,000",160
+291,22,Female,NA,NA
+292,27,Female,Prefer not to say,NA
+293,19,Female,"More than MWK200,000",220
+294,28,Female,Prefer not to say,NA
+295,26,Male,"Between MWK50,000 to MWK74,999",20
+296,40,Female,Prefer not to say,NA
+297,23,Female,Prefer not to say,NA
+298,35,Female,Prefer not to say,NA
+299,48,Female,"Less than MWK25,000",5
+300,18,Female,NA,NA
+301,38,Male,"Between MWK25,000 to MWK49,999",10
+302,27,Female,"Between MWK25,000 to MWK49,999",10
+303,29,Male,"Between MWK25,000 to MWK49,999",10
+304,65,Male,"Between MWK25,000 to MWK49,999",10
+305,35,Female,"Between MWK75,000 to MWK99,999",40
+306,52,Female,"Less than MWK25,000",5
+307,31,Female,Prefer not to say,NA
+308,35,Female,I don't know,NA
+309,31,Female,"Between MWK25,000 to MWK49,999",10
+310,26,Female,"Between MWK25,000 to MWK49,999",10
+311,19,Female,I don't know,NA
+312,18,Male,"Between MWK50,000 to MWK74,999",20
+313,38,Female,Prefer not to say,NA
+314,32,Male,"More than MWK200,000",220
+315,27,Male,"More than MWK200,000",220
+316,32,Female,"More than MWK200,000",220
+317,19,Male,NA,NA
+318,19,Male,NA,NA
+319,47,Male,NA,NA
+320,37,Female,"Between MWK175,000 to MWK200,000",160
+321,50,Female,"Between MWK125,000 to MWK149,999",90
+322,25,Male,Prefer not to say,NA
+323,48,Female,"More than MWK200,000",220
+324,50,Male,NA,NA
+325,48,Female,"More than MWK200,000",220
+326,22,Male,Prefer not to say,NA
+327,38,Male,Prefer not to say,NA
+328,34,Female,Prefer not to say,NA
+329,27,Male,Prefer not to say,NA
+330,41,Female,"Between MWK100,000 to MWK124,999",60
+331,45,Female,"Between MWK50,000 to MWK74,999",20
+332,37,Female,"More than MWK200,000",220
+333,28,Female,"Less than MWK25,000",5
+334,41,Male,"Between MWK50,000 to MWK74,999",20
+335,21,Female,I don't know,NA
+336,19,Female,NA,NA
+337,18,Female,I don't know,NA
+338,30,Male,"Between MWK75,000 to MWK99,999",40
+339,35,Male,Prefer not to say,NA
+340,30,Female,Prefer not to say,NA
+341,26,Male,Prefer not to say,NA
+342,23,Female,Prefer not to say,NA
+343,36,Female,"Between MWK125,000 to MWK149,999",90
+344,43,Female,Prefer not to say,NA
+345,33,Female,Prefer not to say,NA
+346,25,Male,"Between MWK75,000 to MWK99,999",40
+347,29,Male,"Between MWK75,000 to MWK99,999",40
+348,28,Female,Prefer not to say,NA
+349,32,Female,Prefer not to say,NA
+350,27,Female,I don't know,NA
+351,38,Female,Prefer not to say,NA
+352,39,Male,Prefer not to say,NA
+353,40,Female,Prefer not to say,NA
+354,20,Female,Prefer not to say,NA
+355,30,Female,"Between MWK75,000 to MWK99,999",40
+356,30,Female,Prefer not to say,NA
+357,74,Female,"Between MWK25,000 to MWK49,999",10
+358,25,Male,"More than MWK200,000",220
+359,17,Male,I don't know,NA
+360,32,Female,I don't know,NA
+361,65,Female,NA,NA
+362,28,Female,Prefer not to say,NA
+363,40,Female,"More than MWK200,000",220
+364,15,Male,I don't know,NA
+365,29,Male,"Between MWK75,000 to MWK99,999",40
+366,23,Female,"Between MWK150,000 to MWK174,999",120
+367,52,Male,"Between MWK25,000 to MWK49,999",10
+368,29,Female,"More than MWK200,000",220
+369,22,Female,"More than MWK200,000",220
+370,24,Female,"Between MWK150,000 to MWK174,999",120
+371,20,Female,NA,NA
+372,70,Female,"Between MWK150,000 to MWK174,999",120
+373,21,Male,NA,NA
+374,36,Female,"Less than MWK25,000",5
+375,24,Female,NA,NA
+376,23,Male,NA,NA
+377,28,Female,"Less than MWK25,000",5
+378,70,Female,NA,NA
+379,30,Male,"More than MWK200,000",220
+380,32,Female,NA,NA
+381,19,Male,NA,NA
+382,20,Male,"More than MWK200,000",220
+383,30,Female,"Between MWK75,000 to MWK99,999",40
+384,23,Female,Prefer not to say,NA
+385,51,Female,I don't know,NA
+386,15,Male,I don't know,NA
+387,26,Male,"More than MWK200,000",220
+388,33,Male,"Between MWK150,000 to MWK174,999",120
+389,32,Male,"Between MWK150,000 to MWK174,999",120
+390,33,Female,NA,NA
+391,60,Male,"Between MWK150,000 to MWK174,999",120
+392,45,Female,"Between MWK100,000 to MWK124,999",60
+393,25,Female,"Between MWK150,000 to MWK174,999",120
+394,28,Female,"Between MWK75,000 to MWK99,999",40
+395,20,Female,"Between MWK125,000 to MWK149,999",90
+396,28,Male,"Between MWK150,000 to MWK174,999",120
+397,22,Female,NA,NA
+398,42,Male,"Between MWK75,000 to MWK99,999",40
+399,20,Female,NA,NA
+400,41,Female,NA,NA
+401,49,Male,"Between MWK175,000 to MWK200,000",160
+402,37,Female,"Between MWK25,000 to MWK49,999",10
+403,63,Female,"Between MWK100,000 to MWK124,999",60
+404,35,Female,"Between MWK25,000 to MWK49,999",10
+405,30,Female,"More than MWK200,000",220
+406,47,Female,NA,NA
+407,58,Female,"More than MWK200,000",220
+408,23,Male,I don't know,NA
+409,19,Male,"Between MWK75,000 to MWK99,999",40
+410,42,Female,"Between MWK25,000 to MWK49,999",10
+411,18,Male,I don't know,NA
+412,29,Male,Prefer not to say,NA
+413,23,Male,"Between MWK175,000 to MWK200,000",160
+414,32,Female,"Between MWK125,000 to MWK149,999",90
+415,36,Female,"Between MWK150,000 to MWK174,999",120
+416,72,Male,"More than MWK200,000",220
+417,38,Female,NA,NA
+418,31,Female,"Between MWK150,000 to MWK174,999",120
+419,19,Female,"Between MWK150,000 to MWK174,999",120
+420,62,Female,NA,NA
+421,19,Male,NA,NA
+422,25,Female,"Between MWK25,000 to MWK49,999",10
+423,23,Female,NA,NA
+424,29,Female,NA,NA
+425,21,Male,NA,NA
+426,18,Male,NA,NA
+427,25,Female,NA,NA
+428,18,Male,NA,NA
+429,17,Male,I don't know,NA
+430,19,Female,"Less than MWK25,000",5
+431,25,Male,Prefer not to say,NA
+432,26,Female,I don't know,NA
+433,19,Female,"More than MWK200,000",220
+434,45,Female,I don't know,NA
+435,23,Female,Prefer not to say,NA
+436,39,Male,"Between MWK25,000 to MWK49,999",10
+437,18,Female,NA,NA
+438,32,Female,NA,NA
+439,31,Female,NA,NA
+440,22,Female,NA,NA
+441,26,Female,"Between MWK75,000 to MWK99,999",40
+442,25,Female,NA,NA
+443,22,Female,NA,NA
+444,36,Female,"Between MWK25,000 to MWK49,999",10
+445,40,Female,"More than MWK200,000",220
+446,26,Female,"Between MWK150,000 to MWK174,999",120
+447,27,Female,"Between MWK150,000 to MWK174,999",120
+448,57,Male,"Between MWK150,000 to MWK174,999",120
+449,29,Female,"Between MWK175,000 to MWK200,000",160
+450,37,Male,"Between MWK150,000 to MWK174,999",120
+451,20,Female,"Between MWK125,000 to MWK149,999",90
+452,36,Male,NA,NA
+453,22,Male,"Between MWK175,000 to MWK200,000",160
+454,28,Female,Prefer not to say,NA
+455,32,Male,Prefer not to say,NA
+456,30,Female,NA,NA
+457,20,Male,Prefer not to say,NA
+458,25,Male,Prefer not to say,NA
+459,24,Female,"Between MWK100,000 to MWK124,999",60
+460,23,Female,"Between MWK100,000 to MWK124,999",60
+461,36,Male,Prefer not to say,NA
+462,32,Female,"Between MWK75,000 to MWK99,999",40
+463,65,Male,NA,NA
+464,58,Female,"Between MWK150,000 to MWK174,999",120
+465,24,Female,"More than MWK200,000",220
+466,18,Female,"Between MWK175,000 to MWK200,000",160
+467,62,Male,"More than MWK200,000",220
+468,24,Female,"Between MWK125,000 to MWK149,999",90
+469,26,Female,"Between MWK75,000 to MWK99,999",40
+470,29,Female,"Less than MWK25,000",5
+471,26,Male,Prefer not to say,NA
+472,52,Female,Prefer not to say,NA
+473,29,Female,Prefer not to say,NA
+474,50,Female,NA,NA
+475,21,Male,"Between MWK25,000 to MWK49,999",10
+476,27,Male,Prefer not to say,NA
+477,26,Female,Prefer not to say,NA
+478,30,Male,Prefer not to say,NA
+479,24,Female,NA,NA
+480,20,Female,I don't know,NA
+481,19,Male,I don't know,NA
+482,21,Female,"Between MWK150,000 to MWK174,999",120
+483,63,Female,"Between MWK150,000 to MWK174,999",120
+484,43,Female,"More than MWK200,000",220
+485,52,Female,"More than MWK200,000",220
+486,30,Female,"Between MWK150,000 to MWK174,999",120
+487,19,Female,"Between MWK125,000 to MWK149,999",90
+488,18,Female,"Between MWK125,000 to MWK149,999",90
+489,61,Male,"More than MWK200,000",220
+490,40,Female,"More than MWK200,000",220
+491,26,Female,"Between MWK150,000 to MWK174,999",120
+492,24,Female,"Between MWK75,000 to MWK99,999",40
+493,18,Male,"Between MWK125,000 to MWK149,999",90
+494,23,Female,I don't know,NA
+495,64,Female,NA,NA
+496,26,Female,"Between MWK175,000 to MWK200,000",160
+497,22,Male,I don't know,NA
+498,20,Male,I don't know,NA
+499,15,Male,I don't know,NA
+500,39,Female,Prefer not to say,NA
+501,17,Male,I don't know,NA
+502,24,Male,"Between MWK150,000 to MWK174,999",120
+503,17,Male,NA,NA
+504,20,Female,"More than MWK200,000",220
+505,43,Male,I don't know,NA
+506,26,Male,Prefer not to say,NA
+507,17,Male,I don't know,NA
+508,36,Female,"More than MWK200,000",220
+509,18,Male,I don't know,NA
+510,21,Female,Prefer not to say,NA
+511,23,Male,I don't know,NA
+512,21,Female,"Between MWK150,000 to MWK174,999",120
+513,19,Male,I don't know,NA
+514,16,Male,"Less than MWK25,000",5
+515,22,Male,I don't know,NA
+516,32,Male,Prefer not to say,NA
+517,27,Male,Prefer not to say,NA
+518,45,Female,Prefer not to say,NA
+519,35,Male,"More than MWK200,000",220
+520,23,Female,Prefer not to say,NA
+521,53,Male,"More than MWK200,000",220
+522,27,Female,"More than MWK200,000",220
+523,32,Male,"More than MWK200,000",220
+524,33,Male,Prefer not to say,NA
+525,38,Male,"More than MWK200,000",220
+526,35,Female,Prefer not to say,NA
+527,36,Female,Prefer not to say,NA
+528,47,Male,"More than MWK200,000",220
+529,41,Female,I don't know,NA
+530,42,Male,"Between MWK150,000 to MWK174,999",120
+531,22,Male,Prefer not to say,NA
+532,25,Male,"More than MWK200,000",220
+533,33,Female,"More than MWK200,000",220
+534,42,Female,"More than MWK200,000",220
+535,23,Male,Prefer not to say,NA
+536,30,Female,Prefer not to say,NA
+537,38,Male,"More than MWK200,000",220
+538,20,Male,Prefer not to say,NA
+539,24,Male,Prefer not to say,NA
+540,20,Female,NA,NA
+541,23,Male,Prefer not to say,NA
+542,40,Female,Prefer not to say,NA
+543,38,Female,Prefer not to say,NA
+544,23,Female,"More than MWK200,000",220
+545,26,Male,Prefer not to say,NA
+546,30,Female,NA,NA
+547,20,Male,"More than MWK200,000",220
+548,33,Female,"More than MWK200,000",220
+549,41,Male,Prefer not to say,NA
+550,56,Female,Prefer not to say,NA
+551,40,Female,Prefer not to say,NA
+552,23,Male,"More than MWK200,000",220
+553,36,Female,Prefer not to say,NA
+554,25,Male,Prefer not to say,NA

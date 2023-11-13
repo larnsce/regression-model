@@ -1,0 +1,134 @@
+---
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
+```{r}
+
+library(tidyverse)
+library(chibukuplasticscollection)
+```
+
+
+```{r}
+
+survey_model <- survey |> 
+  select(id, age, gender, monthly_earn1) |> 
+  # positive linear relationship for wta: with higher income, willingness to
+  # accept payment increases
+  mutate(wta = case_when(
+    monthly_earn1 == "Less than MWK25,000" ~ 5,
+    monthly_earn1 == "Between MWK25,000 to MWK49,999" ~ 10,
+    monthly_earn1 == "Between MWK50,000 to MWK74,999" ~ 20,
+    monthly_earn1 == "Between MWK75,000 to MWK99,999" ~ 40,
+    monthly_earn1 == "Between MWK100,000 to MWK124,999" ~ 60,
+    monthly_earn1 == "Between MWK125,000 to MWK149,999" ~ 90,
+    monthly_earn1 == "Between MWK150,000 to MWK174,999" ~ 120,
+    monthly_earn1 == "Between MWK175,000 to MWK200,000" ~ 160,
+    monthly_earn1 == "More than MWK200,000" ~ 220
+  ))
+
+survey_model |>
+  write_csv(here::here("data/intermediate/survey_small_wta_model.csv"))
+```
+
+## Data transformation
+
+- nearly 50% of responses cannot be used (I don't know, prefer not to say, NA)
+- why so many NAs (20%) ?
+
+```{r}
+survey_model |> 
+  count(monthly_earn1) |> 
+  mutate(percent = n / sum(n) * 100) 
+```
+
+```{r}
+# define levels for factor
+levels_monthly_earn <- c(
+  "Less than MWK25,000",
+  "Between MWK25,000 to MWK49,999",
+  "Between MWK50,000 to MWK74,999",
+  "Between MWK75,000 to MWK99,999",
+  "Between MWK100,000 to MWK124,999",
+  "Between MWK125,000 to MWK149,999",
+  "Between MWK150,000 to MWK174,999",
+  "Between MWK175,000 to MWK200,000",
+  "More than MWK200,000"
+)
+
+survey_model_clean <- survey_model |> 
+  filter(!monthly_earn1 %in% c("Prefer not to say", "I don't know")) |> 
+  filter(!is.na(monthly_earn1)) |>
+  rename(monthly_earn_chr = monthly_earn1) |> 
+  mutate(monthly_earn_fct = fct_relevel(monthly_earn_chr, levels_monthly_earn)) |> 
+  mutate(monthly_earn_num = case_when(
+    monthly_earn_chr == "Less than MWK25,000" ~ 12500,
+    monthly_earn_chr == "Between MWK25,000 to MWK49,999" ~ 37500,
+    monthly_earn_chr == "Between MWK50,000 to MWK74,999" ~ 62500,
+    monthly_earn_chr == "Between MWK75,000 to MWK99,999" ~ 87500,
+    monthly_earn_chr == "Between MWK100,000 to MWK124,999" ~ 112500,
+    monthly_earn_chr == "Between MWK125,000 to MWK149,999" ~ 137500,
+    monthly_earn_chr == "Between MWK150,000 to MWK174,999" ~ 162500,
+    monthly_earn_chr == "Between MWK175,000 to MWK200,000" ~ 187500,
+    monthly_earn_chr == "More than MWK200,000" ~ 225000
+  )) 
+```
+
+## Data visualisation & modeling
+
+### Income not ordered (i.e. alphabetically)
+
+```{r}
+
+survey_model_clean |> 
+  ggplot(aes(x = monthly_earn_chr, y = wta)) +
+  geom_point() +
+  theme(axis.text.x = element_text(angle = 90))
+
+```
+
+```{r}
+
+model_chr_fit <- lm(wta ~ monthly_earn_chr, data = survey_model_clean) 
+summary(model_chr_fit)
+broom::tidy(model_chr_fit)
+broom::glance(model_chr_fit)
+
+lm(monthly_earn_chr ~ wta, data = survey_model_clean) 
+
+```
+
+### Income ordered 
+
+```{r}
+survey_model_clean |> 
+  ggplot(aes(x = monthly_earn_fct, y = wta)) +
+  geom_point() + 
+  theme(axis.text.x = element_text(angle = 90))
+
+```
+
+```{r}
+model_fct_fit <- lm(wta ~ monthly_earn_fct, data = survey_model_clean) 
+summary(model_fct_fit)
+broom::tidy(model_fct_fit)
+broom::glance(model_fct_fit)
+```
+
+### Income as numeric
+
+```{r}
+survey_model_clean |> 
+  ggplot(aes(x = monthly_earn_num, y = wta)) +
+  geom_point() + 
+  geom_smooth(method = "lm") +
+  theme(axis.text.x = element_text(angle = 90))
+```
+
+```{r}
+model_num_fit <- lm(wta ~ monthly_earn_num, data = survey_model_clean) 
+summary(model_num_fit)
+broom::tidy(model_num_fit)
+broom::glance(model_num_fit)
+```
